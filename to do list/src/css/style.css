@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(71, 68, 68);
+    overflow-y: hidden;
+}
+
+.container {
+    max-width: 550px;
+    min-height: 500px;
+    max-height: 500px;
+    margin: auto;
+    background-color: cornsilk;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: chocolate;
+    overflow-y: scroll;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+    width: 6px;
+    height: 90%;
+    background: #c5bdbd;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7a7a7a;
+    border-radius: 10px;
+}
+
+#newTask {
+    height: 30px;
+    width: 80%;
+}
+
+.incluir {
+    height: 35px;
+    background-color: rgb(137, 72, 221);
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+}
+
+li {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.apagar {
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
+    background-color: rgb(243, 46, 46);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.apagar:hover {
+    background-color: rgb(255, 0, 0);
+}
